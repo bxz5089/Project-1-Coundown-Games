@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Countdown Games! Scoreboard</title>
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+  <body>
+  <div class="backgroundImg" style="background-image: url('assets/img/AdobeStock_253986268.JPEG');">
+
+    <div class="row">
+      <div class="columns small-6 small-centered text-center scoreboard">
+        <h1 id="scoreboardHeader"><i class="fas fa-star"></i> Scoreboard <i class="fas fa-star"></i></h1>
+
+        <ol id="highscores">
+          <li id="scoreboard-li"></li>
+        </ol> 
+        
+        <br>
+        <div class="row button-group">
+          <a href="index.html"><button><i class="fas fa-undo-alt"></i> Retry</button></a>
+          <button id="clear"><i class="fas fa-eraser"></i> Clear Scoreboard</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>$(document).foundation();</script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <script src="assets/js/scores.js"></script>
+  </body>
+</html>

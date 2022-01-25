@@ -1,0 +1,96 @@
+button {
+  background: #ffffff;
+  border: thin;
+  color: #073B4C;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 15px 30px;
+  margin: 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  box-shadow: 0px 1px 5px 1px;
+  cursor: pointer;
+  transition: all .2s ease-out;
+  font-family: 'Dongle', sans-serif;
+}
+  
+button:hover {
+  box-shadow: 0px 4px 10px #ffffff;
+  background-color: #EF476F;
+}
+
+body {
+  margin: auto;
+  width: auto;
+  height: auto;
+  font-family: 'Dongle', sans-serif;
+  font-size: 25px;
+  background-color: #000000;
+  color: #073B4C;
+  }
+
+.backgroundImg {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+.hangmanGame {
+  background-image: url(../img/AdobeStock_469248894.JPEG);
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: #ffffff;
+  box-shadow: 0px 0px 5px #ffffff;
+  width: 80%;
+  margin: 10% auto 10% auto;
+}
+
+.hangmanTitle{
+  margin: 20px;
+  color: #EF476F;
+  font-family: 'Mochiy Pop P One';
+  font-size: 50px; 
+  border-radius: 10px;
+  padding: 10px;
+ 
+}
+
+.timerBox {
+  background: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px darksalmon;
+  font-family: 'Dongle', sans-serif;
+  font-size: 55px;
+}
+
+.guessBox {
+  background: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px darksalmon;
+  margin-top: 2%;
+}
+
+.guessBox h3 {
+  font-family: 'Dongle', sans-serif;
+  font-size: 75px;
+  color: #EF476F;
+}
+
+.scoreBox{
+  background: cadetblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px darksalmon;
+}
+
+.scoreBox h4 {
+  margin: 20px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 50px;
+}
+
